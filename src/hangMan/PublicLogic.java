@@ -181,6 +181,7 @@ public class PublicLogic {
 		wrongCount = 0;
 		usedLetters.removeAll(usedLetters);
 		tries = 6;
+		window.chances.setText("Chances left: " + tries);
 		word = getWord();
 		hangedMan = new StringBuilder();
 		characters = new String[word.length()];
